@@ -111107,7 +111107,7 @@ A.te.prototype={
 ac(){return new A.a_E(B.j)}}
 A.a_E.prototype={
 H(a){var s=null
-return A.hM(A.l3(s,s,s,B.a80),new A.bB(B.hG,A.cF(A.b([B.Cn,A.ht(new A.aB6(a),"Load teams for event"),B.aU,A.ht(new A.aB7(a),"Edit allowed users"),B.aU,A.ht(new A.aB8(a),"Edit recommendation weights")],t.p),B.b9,B.w,B.r),s),s,s,s,s)}}
+return A.hM(A.l3(s,s,s,B.a8_),new A.bB(B.hG,A.cF(A.b([B.Cn,A.ht(new A.aB6(a),"Load teams for event"),B.aU,A.ht(new A.aB7(a),"Edit allowed users"),B.aU,A.ht(new A.aB8(a),"Edit recommendation weights")],t.p),B.b9,B.w,B.r),s),s,s,s,s)}}
 A.aB6.prototype={
 $0(){var s=A.kn(new A.aB5(),null,t.z)
 return A.bU(this.a,!1).fi(s)},
@@ -111524,7 +111524,7 @@ q=t.p
 r=A.jN(B.bA,A.b([A.b8(o,new A.Fg(A.aSm(B.x,o,o,o,!1,B.ba,B.kg,o,!1,m/2,B.hb,!1,o,B.bD,m),s,r,o),B.k,B.a3,o,o,o,o,o,o,o,o,o),A.Wt(0,A.cB(A.b([A.b8(o,p.gr9().ga1X(),B.k,o,o,B.Fg,o,30,o,o,o,o,30),A.bC(o,o,m-60),A.b8(o,p.gra().ga1X(),B.k,o,o,B.Fe,o,30,o,o,o,o,30)],q),B.b9,B.w,B.r),o,o,0,o,o,o)],q),B.R,B.bJ,o)
 s=l.b
 s===$&&A.a()
-return A.hM(n,new A.bB(B.hG,A.cF(A.b([B.a8_,r,B.aU,A.cB(A.b([B.a8u,B.Cn,A.aj_(s,B.m,"ToggleThemeMode",!1,new A.aNh(l),"Change theme")],q),B.u,B.w,B.r)],q),B.b9,B.w,B.r),o),o,o,o,o)}}
+return A.hM(n,new A.bB(B.hG,A.cF(A.b([B.a7Z,r,B.aU,A.cB(A.b([B.a8u,B.Cn,A.aj_(s,B.m,"ToggleThemeMode",!1,new A.aNh(l),"Change theme")],q),B.u,B.w,B.r)],q),B.b9,B.w,B.r),o),o,o,o,o)}}
 A.aNk.prototype={
 $0(){return A.oU("horizontal_flip",this.a.gr9().a)},
 $S:0}
@@ -112599,7 +112599,7 @@ Ga(){return this.a58(null)},
 a7B(){var s=this,r=s.z,q=s.w
 q===$&&A.a()
 if(q.d>0){q=s.gcU().e
-q=s.y=s.z=new A.aO(q,A.l(q).i("aO<1>")).aQ(0,s.w.d-1)}else q=s.y=s.z="Summery"
+q=s.y=s.z=new A.aO(q,A.l(q).i("aO<1>")).aQ(0,s.w.d-1)}else q=s.y=s.z="Summary"
 if(r!==q)s.a2(new A.aM1(s,r))},
 aIe(){var s,r,q,p,o,n,m,l=this,k={}
 if(!B.b.fE(l.x,new A.aLZ(l))){s=l.gcU().e
@@ -112654,7 +112654,7 @@ q=A.b([A.ur(B.m,B.Qx,h,new A.aLF(i,a),h,h)],g)
 p=i.w
 p===$&&A.a()
 o=t.B
-n=A.b([A.bf2(B.a7Y,new A.bR("Robot Summary "+i.gcU().b,o))],g)
+n=A.b([A.bf2(B.a80,new A.bR("Robot Summary "+i.gcU().b,o))],g)
 for(m=i.gcU().e,m=m.gcc(m),m=m.ga4(m);m.t();){l=m.gM(m)
 k=l.a
 n.push(new A.JH(new A.JK(k,B.ch,l.b.c,B.lw,new A.aLG(l),new A.aLH(i,r),h),new A.bR(k,o)))}s=A.l3(q,A.S(a).fr,new A.En(n,p,!0,B.Fi,new A.aLI(i,a),h),s)
@@ -120158,8 +120158,8 @@ B.a8y=new A.b0("Options",null,B.a5z,null,null,null,null,null,null,null)
 B.Hu=new A.e0(B.x,null,null,B.a8y,null)
 B.a8h=new A.b0("Add new scout",null,null,null,null,null,null,null,null,null)
 B.Hv=new A.e0(B.x,null,null,B.a8h,null)
-B.a7Z=new A.b0("Something went wrong, try again later.",null,null,null,null,null,null,null,null,null)
-B.Hw=new A.e0(B.x,null,null,B.a7Z,null)
+B.a7Y=new A.b0("Something went wrong, try again later.",null,null,null,null,null,null,null,null,null)
+B.Hw=new A.e0(B.x,null,null,B.a7Y,null)
 B.acJ=new A.aB2(0,"material")
 B.HD=new A.DU(null)
 B.ks=new A.e0(B.x,null,null,B.HD,null)
@@ -123423,9 +123423,9 @@ B.D5=new A.b0("Settings",null,null,null,null,null,null,null,null,null)
 B.a7V=new A.b0("Selection Complete",null,null,null,null,null,null,null,null,null)
 B.a5l=new A.y(!0,null,null,null,null,null,44,B.bb,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a7X=new A.b0("Login",null,B.a5l,null,null,null,null,null,null,null)
-B.a7Y=new A.b0("Summery",null,B.ch,null,null,null,null,null,null,null)
-B.a8_=new A.b0("Field Orientation",null,B.nj,null,null,null,null,null,null,null)
-B.a80=new A.b0("Admin Settings",null,null,null,null,null,null,null,null,null)
+B.a7Z=new A.b0("Field Orientation",null,B.nj,null,null,null,null,null,null,null)
+B.a8_=new A.b0("Admin Settings",null,null,null,null,null,null,null,null,null)
+B.a80=new A.b0("Summary",null,B.ch,null,null,null,null,null,null,null)
 B.D6=new A.b0("Add",null,null,null,null,null,null,null,null,null)
 B.a81=new A.b0("F2",null,B.d8,B.aV,null,null,null,null,null,null)
 B.a82=new A.b0("Other event",null,null,null,null,null,null,null,null,null)
