@@ -32,7 +32,7 @@ export default function Portfolio() {
               Contact
             </Link>
           </nav>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               className="rounded-full px-4 py-2 text-sm border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-white"
